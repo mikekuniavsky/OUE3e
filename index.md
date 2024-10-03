@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Home 1
 layout: home
 ---
 
