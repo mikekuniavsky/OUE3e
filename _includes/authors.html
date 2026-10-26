@@ -1,0 +1,5 @@
+{%- comment -%} Prints "A and B" with LinkedIn links where available. {%- endcomment -%}
+{%- for a in site.data.authors -%}
+  {%- include author.html name=a.name -%}
+  {%- unless forloop.last %} and {% endunless -%}
+{%- endfor -%}

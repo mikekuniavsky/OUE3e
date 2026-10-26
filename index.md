@@ -9,26 +9,31 @@ permalink: /
 # Observing the User Experience
 {: .fs-9 }
 
-A practitioner's guide to user research, third edition, by Elizabeth Goodman and Mike Kuniavsky.
+Third edition, by {% include authors.html %}
 {: .fs-6 .fw-300 }
 
 [Browse the chapters]({{ '/chapters/' | relative_url }}){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Get the book]({{ '/#get-the-book' | relative_url }}){: .btn .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [Search the bibliography]({{ '/bibliography/' | relative_url }}){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
-This site accompanies the book. It does not reproduce the book's text. It gives you:
+This site goes with the book. It doesn't contain the book (that's what the book is for). Here's what it does have:
 
-- **A guide to each chapter:** what it covers, its main sections and key terms, so you can find the right method quickly.
-- **A bibliography:** the sources behind the book, searchable and grouped by chapter, drawn from the book's [Zotero library](https://www.zotero.org/groups/5691168/oue/library).
-- **Resources:** the web links and tools mentioned in the chapters, in one place.
+- **A guide to each chapter,** so you can find the method you need.
+- **Our bibliography,** sorted by chapter and searchable. It comes from our [Zotero library](https://www.zotero.org/groups/5691168/oue/library).
+- **The links and tools we mention,** all in one place.
+
+## Get the book
+
+You can buy it from [Elsevier]({{ site.data.book.elsevier }}) or from [Amazon US]({{ site.data.book.amazon_us }}).
 
 {: .note }
-This is a work in progress. Chapter descriptions and links will change as the book moves to print.
+We're still building this. Descriptions and links will change as the book goes to print.
 
-## The book at a glance
+## What the book covers
 
-User experience research is the process of figuring out how an audience interprets and uses a designed artifact: an app, a medical device, a service. The book starts with planning (programs, projects, recruiting, desk research), moves through the main ways of learning from people (interviews, observation, usability tests, surveys, diaries, groups, findability methods), shows how to analyze and represent what you learn (qualitative analysis; personas, processes and systems), and ends with sharing it, running research as an operation, and using it to change the organization.
+User research means finding out how people understand and use something somebody designed: an app, a medical device, a service. The first chapters are about planning, recruiting, and what's already known. Then come the ways of learning from people: interviews, visits, usability tests, surveys, diaries, groups, and tests for whether people can find things. The rest is about making sense of what you learned, showing it to other people, running research as an operation, and getting your organization to do something about it.
 
 <div class="chapter-grid">
 {%- for c in site.data.chapters %}

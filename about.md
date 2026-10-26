@@ -6,26 +6,26 @@ permalink: /about/
 
 # About the book and this site
 
-*Observing the User Experience* is a guide to the methods of user experience research, for researchers and for everyone who needs to understand the people they design for: designers, product managers, engineers and founders. This is the companion site for the third edition.
+*Observing the User Experience* is a guide to the methods of user research. It's for researchers, and for anyone else who needs to understand the people they're designing for: designers, product managers, engineers, founders. This is the companion site for the third edition.
 
-## Authors
+## Who we are
 
-**Elizabeth Goodman** and **Mike Kuniavsky** wrote the third edition. Earlier editions were co-written with Andrea Moed.
+{% for a in site.data.authors %}
+- {% include author.html name=a.name %}
+{%- endfor %}
 
-## What is on this site
+We wrote this edition together. Mike wrote the first edition on his own, and the second edition had a third author, Andrea Moed.
 
-- [Chapters]({{ '/chapters/' | relative_url }}): an overview of each of the 19 chapters.
-- [Bibliography]({{ '/bibliography/' | relative_url }}): sources collected for the book, from its shared Zotero library.
-- [Resources]({{ '/resources/' | relative_url }}): links and tools mentioned in the chapters.
+## What's here
 
-## What is not here
+- [Chapters]({{ '/chapters/' | relative_url }}): a short guide to each of the 19 chapters.
+- [Bibliography]({{ '/bibliography/' | relative_url }}): the sources we collected, from our shared Zotero library.
+- [Resources]({{ '/resources/' | relative_url }}): the links and tools we mention in the chapters.
 
-The chapter text. The book is published by Elsevier; read it there. This site only summarizes and points to other material.
+## What isn't
 
-## How the site is built
+The chapter text. For that you'll need the book, which you can get from [Elsevier]({{ site.data.book.elsevier }}) or [Amazon US]({{ site.data.book.amazon_us }}). This site only describes it and points to other things worth reading.
 
-The site is built with Jekyll and the Just the Docs theme and is published through GitHub Pages. Chapter overviews come from `_data/chapters.yml`. The bibliography comes from the book's public Zotero library: the script `scripts/fetch_zotero.py` downloads it into `_data/zotero.json`. See the repository's README for how to update either one.
+## Corrections
 
-## Corrections and suggestions
-
-If you find a broken link, a missing source or a mistake, please open an issue in the [GitHub repository](https://github.com/mikekuniavsky/OUE3e).
+Found a dead link, a missing source or a mistake? [Open an issue on GitHub](https://github.com/mikekuniavsky/OUE3e/issues) and we'll fix it. The site's code and data are in [that repository](https://github.com/mikekuniavsky/OUE3e) too.

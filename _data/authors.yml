@@ -1,0 +1,7 @@
+# Authors, in the order they appear on the site.
+# Add each author's LinkedIn profile URL in `linkedin`; the link and icon appear
+# next to the name everywhere the author include is used. Leave it empty to show the name alone.
+- name: Elizabeth Goodman
+  linkedin: "https://www.linkedin.com/in/esgoodman/"
+- name: Mike Kuniavsky
+  linkedin: "https://www.linkedin.com/in/mikek/"

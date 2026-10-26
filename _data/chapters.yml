@@ -21,18 +21,13 @@
 - num: 1
   slug: introduction
   title: "Introduction: The Uses of Research"
-  summary: >-
-    User experience research is the work of figuring out how an audience interprets and uses a
-    designed artifact. The introduction argues that every organization already does some of it,
-    formally or not, and that doing it systematically pays off. A case study of Airbnb's
-    pandemic-era redesign shows what research-driven change looks like, and a section on "thick
-    data" explains why a few good conversations can explain what logs and counts cannot.
+  summary: "Why research? Because somebody in your organization is already doing it, whether or not anyone calls it that. We start with Airbnb's pandemic redesign, then make the case for qualitative research: a few good conversations can tell you why, which no log file will. And we ask you to be your users' champion, not a box-ticker."
   takeaways:
-    - Why user research is not optional, and how it relates to "product-market fit."
-    - How Airbnb used research to rebuild its guest and host experience during COVID-19.
-    - The difference between thin (big) data and thick (qualitative) data.
-    - Why the book treats methods as a cookbook rather than a fixed procedure.
-    - What it means to be a champion for the people you research, not a box-ticker.
+    - "Why every organization does user research, even when nobody calls it that"
+    - "How Airbnb used research to get through the pandemic"
+    - "Thick data versus thin data, and why you need both"
+    - "Why we think of the methods as a cookbook, not a procedure"
+    - "What it means to be your users' champion"
   sections:
     - What user research is for
     - "A case study in user-led innovation: Airbnb's pandemic redesign"
@@ -48,18 +43,13 @@
 - num: 2
   slug: program-roadmapping
   title: Program Roadmapping
-  summary: >-
-    Research needs a plan that connects individual studies to what the organization is trying to
-    achieve. This chapter shows how to build that plan: start with a simple Now/Next/Later
-    roadmap, then, if your program is complex enough to need it, an operational roadmap with
-    prioritized concerns, written objectives, scoped projects and a timeline. It ends with a
-    take on the "tactical versus strategic research" debate.
+  summary: "Before you plan a study, you need to know why you're doing research at all. We start small, with a Now/Next/Later roadmap you can sketch in a few days, then grow it into an operational roadmap with written objectives, scoped projects and a timeline. Along the way: how to rank your stakeholders' worries, why it's better to disappoint people early, and why \"tactical versus strategic\" is the wrong argument."
   takeaways:
-    - How to build a basic Now/Next/Later roadmap in a few days.
-    - How to collect and prioritize organizational concerns with stakeholder conversations.
-    - How to write research objectives that are relevant, concrete and achievable.
-    - How to scope projects and lay them out on an operational roadmap.
-    - Why the tactical versus strategic distinction is better treated as two outcomes of one project.
+    - "How to sketch a Now/Next/Later roadmap in a few days"
+    - "How to collect your stakeholders' concerns and rank them"
+    - "How to write objectives you can actually achieve"
+    - "How to scope projects and put them on a timeline"
+    - "Why tactical and strategic research aren't opposites"
   sections:
     - The basic roadmap
     - The operational roadmap
@@ -88,17 +78,13 @@
 - num: 3
   slug: research-project-planning
   title: Research Project Planning
-  summary: >-
-    A project plan turns research objectives into something a team can approve and carry out.
-    The chapter starts with a one-page minimal plan, then covers the thorough version: goals,
-    research questions, methods (including mixed-methods patterns), participants, data handling,
-    outcomes, logistics and risks, and how to share the plan and get support for it.
+  summary: "Planning a research project is about as complicated as throwing a party, and you wouldn't throw one without a list. We start with a minimal plan that fits on one page, then build the thorough one: goals, questions, methods, participants, data, logistics and risks. We also cover mixing methods, and what to say to people who'd rather have the results tomorrow."
   takeaways:
-    - The six things every research plan needs, even for a quick usability test.
-    - How to refine broad research questions into ones you can actually answer.
-    - How to choose among foundational, evaluative and generative projects and pick methods.
-    - The main mixed-methods patterns (explanatory sequential, exploratory sequential, convergent).
-    - How to estimate time, budget and risk, and answer the objections a plan usually gets.
+    - "The six things every plan needs, even for a quick usability test"
+    - "How to turn vague questions into ones you can answer"
+    - "Foundational, evaluative and generative projects, and which methods fit each"
+    - "Three patterns for mixing methods"
+    - "How to answer \"Anecdotes aren't data\" and other objections"
   sections:
     - The minimal project plan
     - The thorough plan
@@ -115,17 +101,13 @@
 - num: 4
   slug: recruiting
   title: Recruiting
-  summary: >-
-    The quality of your recruiting is the biggest determinant of the insights you gain. The
-    chapter explains profiling (who are the right people), sizing the sample, sourcing, screening,
-    and coordinating schedules, consent and incentives, with an emphasis on doing it yourself and
-    knowing what paid services do for you. It closes with the common ways recruiting goes wrong.
+  summary: "Who you talk to matters more than almost anything else you do. We show how to decide who the right people are, how many you need, where to find them, how to screen out the wrong ones and how to get everyone to show up. Rule number one: do whatever it takes to find people who have the relevant experience."
   takeaways:
-    - How to turn a theoretical population into an unambiguous research profile.
-    - How many participants to recruit, using a table or a formula.
-    - Ways to find people: requests, intercepts, advertising, paid panels.
-    - How to write a screener and keep fraudulent respondents out.
-    - How to handle consent, incentives and scheduling, and avoid no-shows and sourcing bias.
+    - "How to write a profile that leaves no doubt about who's in and who's out"
+    - "How many people you need, by table or by formula"
+    - "Ways to find them: asking, intercepting, advertising, paying a panel"
+    - "How to write a screener and keep out fraudulent respondents"
+    - "Consent, incentives and scheduling, and what goes wrong (no-shows, biased sourcing)"
   sections:
     - How recruiting works
     - Profiling
@@ -144,17 +126,13 @@
 - num: 5
   slug: desk-research
   title: Desk Research
-  summary: >-
-    Before collecting new data, find out what is already known. This chapter covers reviewing
-    your organization's own research, searching academic, industry, government and think-tank
-    sources, judging research quality quickly, and doing your own heuristic and competitive
-    analyses. It ends with how to put the findings to use and where desk research runs out.
+  summary: "Desk research is the kind you can do alone, in your pajamas. Before you collect anything new, find out what your organization, other researchers, governments and your competitors already know. We show how to read academic papers without reading all of them, how to tell good research from the official-looking kind, and how to run a heuristic review and a competitive analysis. Then we tell you what desk research can't do."
   takeaways:
-    - How to assess what your organization already knows, and what to do when it knows little.
-    - A skimmer's guide to reading academic papers.
-    - Where to find industry, think-tank and government research.
-    - How to spot red flags and green lights in research quality.
-    - How to run a heuristic evaluation and a competitive analysis.
+    - "What to do when your organization knows a lot, or very little, about its users"
+    - "How to skim an academic paper"
+    - "Where to find industry, think-tank and government research"
+    - "The red flags and green lights of research quality"
+    - "How to run a heuristic evaluation and a competitive analysis"
   sections:
     - "Internal research: what do you have?"
     - "External research: what do other people know?"
@@ -182,18 +160,13 @@
 - num: 6
   slug: interviewing
   title: Interviewing
-  summary: >-
-    A research interview is a guided conversation designed to produce honest, detailed
-    accounts without leading the participant. The chapter covers the Greek-column structure of an
-    interview, a quickstart interview guide, writing better questions, preparing observers,
-    running the session, sensitive topics, and hands-on techniques such as visual elicitation,
-    collage, mapping and timelines.
+  summary: "A research interview looks like a conversation, but it isn't one. You're trying to get people to open up without steering what they say. We cover the structure of an interview, a quickstart guide, writing questions that don't lead, handling observers, and what to do when the interviewee won't talk (or won't stop). The last sections cover sensitive topics and hands-on exercises: collage, maps and timelines."
   takeaways:
-    - How semi-structured interviews balance a plan with improvisation.
-    - How to turn research questions into interview questions, and avoid leading ones.
-    - How to prepare observers and keep them from derailing a session.
-    - How to take notes that separate observation from interpretation.
-    - How to use visual elicitation, collage, spatial and social mapping and timelines.
+    - "How to balance a plan with improvisation"
+    - "How to turn research questions into interview questions"
+    - "How to keep observers from taking over"
+    - "How to take notes that keep what you saw apart from what you think it means"
+    - "Visual elicitation, collage, spatial and social mapping, and timelines"
   sections:
     - Interview basics
     - How to do it
@@ -211,17 +184,13 @@
 - num: 7
   slug: learning-from-observation
   title: Learning from Observation
-  summary: >-
-    Watching people where they live and work shows what they do, not just what they say they
-    do. The chapter explains what field visits are and when to use them, how to prepare (recruit,
-    schedule, learn the domain, plan notes), how to run the visit, and how to answer the usual
-    objections to doing fieldwork.
+  summary: "What people say they do and what they do can be far apart, so go and watch. Moen's showerhead designers did, in a place you might not expect. We cover field visits: how to recruit and schedule them, what to do once you're there, how to take notes, and how to answer \"Can't we just ask them?\""
   takeaways:
-    - What field visits are and how they differ from asking people questions.
-    - How to plan and schedule visits, including video and cross-cultural visits.
-    - A structure for a visit: introduction, main observation period, wrap-up.
-    - Frameworks for what to watch (such as AEIOU) and contextual inquiry.
-    - How to respond to "this takes too long" and similar objections.
+    - "What a field visit is, and how it differs from asking questions"
+    - "How to plan and schedule visits, including videotaped and cross-cultural ones"
+    - "How to structure a visit: introduction, main observation, wrap-up"
+    - "Frameworks for what to look at, such as AEIOU and contextual inquiry"
+    - "How to respond when someone says \"This takes too long\""
   sections:
     - What are field visits?
     - Before you go
@@ -236,17 +205,13 @@
 - num: 8
   slug: usability-testing
   title: Usability Testing
-  summary: >-
-    A moderated usability test shows where people struggle to use a product and why. The
-    chapter walks through five steps (make a plan, assemble the ingredients, run the tests,
-    analyze, report) and then covers automated testing, accessibility-engaged testing and testing
-    on mobile and wearable devices.
+  summary: "A moderated usability test shows you where people get stuck, and why. We walk through it in five steps: plan, assemble, run, analyze and report. Then we look at what changes for automated tests, tests that include people who use assistive technology, and tests on mobile and wearable devices."
   takeaways:
-    - How to write a test plan with goals, research questions, tasks and metrics.
-    - How many participants you need and how to recruit and schedule them.
-    - How to write a script and moderate without leading.
-    - How to analyze notes and report findings people will act on.
-    - How to adapt the method for automated, accessible and mobile testing.
+    - "How to write a test plan with goals, questions, tasks and metrics"
+    - "How many participants you need, and how to recruit and schedule them"
+    - "How to write a script and moderate without leading"
+    - "How to analyze your notes and write a report people act on"
+    - "How to adapt the method for automated, accessible and mobile testing"
   sections:
     - The basics of usability testing
     - How to do it
@@ -265,16 +230,13 @@
 - num: 9
   slug: analyzing-qualitative-data
   title: Analyzing Qualitative Data
-  summary: >-
-    Interviews, visits and tests leave a "wall of data." This chapter presents a repeatable way to
-    climb it: process the raw material, build patterns by coding and grouping, then connect the
-    patterns into insights and stories. It offers both a speedy and a heavyweight analysis plan.
+  summary: "After the interviews and visits you're left with what we call the wall of data. Here's how to climb it: label what you've got, group it into patterns, and turn the patterns into insights and stories. We give you a fast way and a thorough way, and help you decide which to use."
   takeaways:
-    - The three steps of qualitative analysis: process, pattern, insight.
-    - Bottom-up versus top-down coding, and groups, grids and tags as ways to organize.
-    - How affinity grouping works and when to use it.
-    - How to describe people and processes, revisit codes, and build frameworks.
-    - Typical lightweight and heavyweight analysis timelines.
+    - "The three steps: process the data, find patterns, develop insights"
+    - "Top-down and bottom-up coding, and organizing with groups, grids or tags"
+    - "How affinity grouping works"
+    - "How to describe people and processes and connect groups into frameworks"
+    - "What a lightweight and a heavyweight analysis plan look like"
   sections:
     - The basics of qualitative data analysis
     - How to do it
@@ -288,17 +250,13 @@
 - num: 10
   slug: surveys
   title: Surveys
-  summary: >-
-    Surveys can tell you how many people do or think something, if they are carefully built. The
-    chapter focuses on the brief online descriptive survey: when to run one, how to plan,
-    schedule and write it, how to sample and recruit respondents, and how to analyze the
-    answers, with warnings about the many ways surveys go wrong.
+  summary: "Surveys fail. Often. Usually because people think they're easy. We stick to the brief online survey: when to run one, how to plan it, write the questions, find respondents and make sense of the answers, with plenty of warnings about the ways it can go wrong."
   takeaways:
-    - When a survey is the right (and wrong) tool.
-    - How to set one goal and plan the survey, including a realistic schedule.
-    - Types of questions and common problems with their wording.
-    - Sampling, sample size, response rates and non-response bias.
-    - How to code open answers, count, cross-tabulate and judge significance.
+    - "When a survey is the right tool, and when it isn't"
+    - "How to pick one goal and plan a realistic schedule"
+    - "Question types, and the common ways questions go wrong"
+    - "Sampling, sample size, response rates and non-response bias"
+    - "How to code open answers, count, cross-tabulate and judge significance"
   sections:
     - When to run surveys
     - How to field a survey
@@ -312,17 +270,13 @@
 - num: 11
   slug: diary-studies
   title: Diary Studies
-  summary: >-
-    A diary study asks participants to record their activities over time, giving you a view of
-    experiences that stretch across days, places and devices. The chapter covers when to use
-    diaries, cultural probes, self-reporting, choosing a platform (paper, voicemail, apps),
-    writing instructions and forms, running the study and analyzing the results.
+  summary: "Some experiences don't happen in one place or at one time. A diary study asks participants to keep track for you. We cover when diaries beat interviews, how to choose a platform (paper, voicemail or an app), how to write the instructions and forms, how to keep people writing and what to do with the entries. There's also a short section on cultural probes."
   takeaways:
-    - When diaries are better than interviews or observation.
-    - How to design exercises and choose a platform.
-    - How to write the introduction, instructions and questionnaires.
-    - How to keep participants engaged with incentives and reminders.
-    - How to analyze entries and follow up with participants.
+    - "When a diary beats an interview or a visit"
+    - "How to design the exercises and pick a platform"
+    - "How to write the introduction, instructions and forms"
+    - "How to keep participants going with incentives and reminders"
+    - "How to analyze the entries and follow up"
   sections:
     - When to do a diary study
     - How to do it
@@ -340,17 +294,13 @@
 - num: 12
   slug: working-with-groups
   title: Working with Groups
-  summary: >-
-    Group methods are valuable for studying social activities and for early exploration, but
-    they carry risks that one-on-one methods do not. The chapter explains when to use groups, how
-    to plan and schedule them (online or in person), write a guide, set up the space, moderate
-    discussion, handle common problems and analyze what happens.
+  summary: "Groups can show you social dynamics that one-on-one methods can't. They can also go wrong in ways one-on-one methods don't, which is why a lot of researchers avoid them. We don't think you should throw out a method because many people do it badly, so we show how to do it well: when to use groups, how to plan them (online or in a room), how to moderate and how to analyze what you get."
   takeaways:
-    - When working with groups is the right choice (and when it is the worst one).
-    - How to plan activities, find participants and write a group guide.
-    - How to prepare physical and online spaces and record sessions.
-    - How to moderate: full participation, neutrality, timekeeping, assistant moderators.
-    - How to analyze group session data.
+    - "When working with a group is the right call, and when it's the worst one"
+    - "How to plan activities, find participants and write a guide"
+    - "How to prepare the space, physical or online, and record the session"
+    - "How to moderate: full participation, neutrality, timekeeping, an assistant"
+    - "How to analyze group session data"
   sections:
     - When to work with groups
     - How to run group activities
@@ -365,17 +315,13 @@
 - num: 13
   slug: findability-and-navigation
   title: Findability and Navigation
-  summary: >-
-    A collection of specialized methods for checking whether people can find information and
-    functionality and get where they are going. It covers open and closed card sorting, tree
-    tests, first-click testing, navigation path analysis, eye and gesture tracking and
-    search-based findability, and ends by tying them to customer journeys and service design.
+  summary: "Can people find what they're looking for, and can they get where they're going? We cover card sorting, tree tests, first-click tests, navigation path analysis, eye tracking and search. Along the way we meet Richard Ankrom, who fixed a confusing Los Angeles freeway interchange with a homemade sign."
   takeaways:
-    - How to run open and closed card sorts and analyze them informally or with cluster analysis.
-    - How tree tests evaluate a hierarchy of categories.
-    - How first-click testing and information scent diagnose navigation.
-    - What navigation path analysis and eye tracking can and cannot show.
-    - How to think about search as part of findability.
+    - "How to run open and closed card sorts, and analyze them by eye or with cluster analysis"
+    - "How tree tests check a hierarchy of categories"
+    - "How first-click tests and information scent diagnose navigation"
+    - "What path analysis and eye tracking can and can't tell you"
+    - "How to think about search as part of findability"
   sections:
     - Organizing information findably
     - Streamlining navigation
@@ -398,18 +344,13 @@
 - num: 14
   slug: representing-insights-people
   title: "Representing Insights: People"
-  summary: >-
-    Once you have data about people, you need a way to share it that teams will remember and
-    use. This chapter covers personas: goal-driven personas, role-based personas and behavioral
-    archetypes; how to make one from research (choosing meaningful factors, finding shared
-    factors and differences); how to work with several; proto-personas; and the common
-    criticisms of personas.
+  summary: "Personas are popular and controversial. This chapter opens with King Charles and Ozzy Osbourne, whom an ad-targeting algorithm can't tell apart, and goes on to the three kinds of persona (goal-driven, role-based and behavioral archetypes), how to make one from your data, how to juggle several, what proto-personas are good for and what to say to people who can't stand personas."
   takeaways:
-    - The three types of personas and what each emphasizes.
-    - How to pick meaningful factors and avoid marketing demographics.
-    - How to build a persona and decide which ones to prioritize.
-    - How to use personas to generate ideas and resolve conflicts.
-    - How to keep personas fresh over time.
+    - "The three kinds of persona and what each is good for"
+    - "How to pick factors that matter (hint: not marketing demographics)"
+    - "How to build a persona and decide which ones to prioritize"
+    - "How to use personas to generate ideas and settle arguments"
+    - "How to keep personas from going stale"
   sections:
     - Types of personas
     - How to make a persona
@@ -428,17 +369,13 @@
 - num: 15
   slug: representing-insights-processes
   title: "Representing Insights: Processes"
-  summary: >-
-    Some research is about what people do over time. This chapter shows three ways to represent
-    processes: tasks (flows, hierarchies and towers), journeys (journey maps, with a step-by-step
-    method) and services (service blueprints, with a step-by-step method), including how to
-    analyze data for each.
+  summary: "Tasks, journeys and services all describe what people do over time, at different scales. We show how to analyze each and how to draw it: flows, hierarchies and towers for tasks, journey maps, and service blueprints, with step-by-step instructions for the last two. Our advice at the end: simplify."
   takeaways:
-    - The difference between tasks, journeys and services, and which diagram fits each.
-    - How to analyze and represent tasks as flows, hierarchical task analyses and towers.
-    - How to build a journey map from participant data in six steps.
-    - How to make a service blueprint and call out measures of success.
-    - Why simpler diagrams are usually better.
+    - "The difference between tasks, journeys and services, and which diagram fits which"
+    - "How to draw a task as a flow, a hierarchical task analysis or a tower"
+    - "How to build a journey map from participant data in six steps"
+    - "How to make a service blueprint and mark what success looks like"
+    - "Why simpler diagrams almost always win"
   sections:
     - Tasks
     - Journeys
@@ -452,17 +389,13 @@
 - num: 16
   slug: representing-insights-systems
   title: "Representing Insights: Systems"
-  summary: >-
-    Systems diagrams show how the thing you are designing sits inside a larger whole. The chapter
-    covers ecosystem maps (with a step-by-step method), structured concept models, and
-    experience frameworks, including a catalog of common diagram formats and how to sketch your
-    own.
+  summary: "Sometimes the useful picture is of the thing you're designing and everything around it. We cover ecosystem maps, concept models and experience frameworks, show a catalog of common diagram shapes, and suggest you start by drawing on paper."
   takeaways:
-    - What an ecosystem is and how to map it with concentric circles.
-    - How concept models use nodes, links and propositions.
-    - How experience frameworks summarize relationships among research themes.
-    - Common formats: hub and spoke, bullseye, backbone, tree, Venn, matrix, metaphors.
-    - Why to start with freehand sketching.
+    - "What an ecosystem is, and how to map one with concentric circles"
+    - "How concept models work: nodes, links and propositions"
+    - "How experience frameworks sum up relationships among themes"
+    - "A catalog of shapes: hub and spoke, bullseye, backbone, tree, Venn, matrix, metaphor"
+    - "Why to start with freehand sketching"
   sections:
     - What you'll need before you start
     - Ecosystems
@@ -477,17 +410,13 @@
 - num: 17
   slug: reports-presentations-and-workshops
   title: Reports, Presentations, and Workshops
-  summary: >-
-    Research only has an effect when people understand and use it. The chapter covers choosing a
-    format, informal and formal reports, tactics for making reports compelling, giving
-    presentations (including using video), running interpretation workshops and going beyond
-    delivering deliverables to delivering results.
+  summary: "Research only matters if someone acts on it. We cover choosing a format, writing informal and formal reports, making reports people will actually read, giving presentations and running workshops where the team works with the findings. The goal isn't to hand over deliverables. It's to get results."
   takeaways:
-    - How to match a report's format to its audience.
-    - The parts of a formal report and how to test one with stakeholders.
-    - Tactics: lead with the striking finding, get concrete, make the takeaway the title.
-    - How to avoid common presentation pitfalls.
-    - How to plan and run workshops to build empathy, find implications and solve problems.
+    - "How to match a report's format to its audience"
+    - "The parts of a formal report, and how to test one on stakeholders"
+    - "Tactics for better reports: lead with the striking finding, get concrete, make the takeaway the title"
+    - "How to avoid the usual presentation pitfalls"
+    - "How to run workshops that build empathy, find implications and solve problems"
   sections:
     - Pick a format
     - Informal reports
@@ -503,17 +432,13 @@
 - num: 18
   slug: research-ops
   title: Research Ops
-  summary: >-
-    As research grows, so does the work of keeping it efficient, compliant and reusable. This
-    chapter defines research operations and its eight pillars, then covers governance and
-    participant data privacy, participant management and panels, program management (tools,
-    budget, metrics) and data and knowledge management.
+  summary: "Research ops is the work that keeps research running: recruiting, data, tools, budgets, privacy and the repository. The chapter starts with a \"do this right now\" checklist for protecting participant data. After that: governance and the legal landscape, participant indexes and panels, program management (tools, budget, metrics) and how to store research so people can find it again."
   takeaways:
-    - What research operations is and why more than researchers need it.
-    - A "do this right now" checklist for protecting participant data.
-    - Identification, sharing and the legal landscape for research data.
-    - How to build a participant index and run a panel.
-    - How to organize, store and keep research knowledge findable.
+    - "What research ops is, and why people other than researchers need it"
+    - "A checklist for protecting participant data today"
+    - "Identification, sharing and what the law cares about"
+    - "How to build a participant index and run a panel"
+    - "How to organize and store research so it's findable"
   sections:
     - What is research ops?
     - Governance and privacy
@@ -531,17 +456,13 @@
 - num: 19
   slug: organizational-power
   title: Organizational Power
-  summary: >-
-    The last chapter asks the "so what?" question: research exists to change decisions. It
-    introduces information velocity, shows how to analyze your organization's culture and
-    stakeholder relationships, how to pick projects for impact and communicate strategically, and
-    why outcomes matter more than methods or titles.
+  summary: "The last chapter is about the \"so what?\" moment, when someone senior reads your report and asks why it matters. We cover how to size up your organization's culture and who holds the power, how to pick projects that make a difference, and why outcomes count for more than methods or job titles."
   takeaways:
-    - "A model for growing research influence: understand the organization, communicate strategically, find allies, shape action."
-    - How to gather data about organizational culture and name what matters.
-    - How to map primary and secondary stakeholders and power dynamics.
-    - How to pick projects for impact.
-    - Why to focus on outcomes over methods and titles.
+    - "A model for growing research's influence: understand the organization, communicate with purpose, find allies, shape decisions"
+    - "How to gather data about organizational culture and name what matters"
+    - "How to map stakeholders and power dynamics"
+    - "How to pick projects for impact"
+    - "Why outcomes beat methods and titles"
   sections:
     - Information velocity
     - Analyze your organizational culture

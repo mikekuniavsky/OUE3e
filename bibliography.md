@@ -6,7 +6,7 @@ permalink: /bibliography/
 
 # Bibliography
 
-Sources collected for the book, from the shared [Zotero library](https://www.zotero.org/groups/5691168/oue/library). Entries are shown in APA style, alphabetically. Use the box and the menu to narrow the list.
+These are the sources we collected for the book, from our shared [Zotero library](https://www.zotero.org/groups/5691168/oue/library), in APA style and alphabetical order. Use the filter box or the chapter menu to narrow the list.
 
 <div class="bib-controls">
   <label for="bib-filter">Filter</label>

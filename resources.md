@@ -6,7 +6,7 @@ permalink: /resources/
 
 # Resources
 
-Web links and tools mentioned in the chapters, collected in one place. Links are as printed in the manuscript; some may have changed.
+The links and tools we mention in the chapters, all in one place. These are the links as we wrote them, so some may have gone stale. If you find one, tell us.
 
 {%- for c in site.data.chapters %}
 {%- if c.links.size > 0 or c.tools.size > 0 %}
@@ -22,7 +22,7 @@ Web links and tools mentioned in the chapters, collected in one place. Links are
 </ul>
 {%- endif %}
 {%- if c.tools.size > 0 %}
-<p><strong>Tools and organizations named:</strong> {{ c.tools | join: ", " }}.</p>
+<p><strong>Tools and companies we mention:</strong> {{ c.tools | join: ", " }}.</p>
 {%- endif %}
 {%- endif %}
 {%- endfor %}

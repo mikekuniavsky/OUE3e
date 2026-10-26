@@ -77,3 +77,31 @@ ul.bib {
     flex: 1 1 14rem;
   }
 }
+
+// LinkedIn icon next to author names
+a.author-linkedin {
+  margin-left: 0.2em;
+  vertical-align: -2px;
+  text-decoration: none;
+  border-bottom: none;
+  color: #0a66c2;
+
+  &:hover {
+    color: #004182;
+  }
+}
+
+// "Buy the book" in the header
+.aux-nav .buy-button {
+  font-weight: 700;
+  color: #fff;
+  background: #7253ed;
+  border-radius: 4px;
+  padding: 0.25rem 0.75rem;
+  margin-right: 0.25rem;
+
+  &:hover {
+    background: #5e41d0;
+    text-decoration: none;
+  }
+}

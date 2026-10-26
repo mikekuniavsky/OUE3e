@@ -11,7 +11,7 @@ layout: default
 
 <p class="fs-5">{{ ch.summary }}</p>
 
-<h2>In this chapter</h2>
+<h2>What you'll find</h2>
 
 <ul>
 {%- for t in ch.takeaways %}
@@ -19,7 +19,7 @@ layout: default
 {%- endfor %}
 </ul>
 
-<h2>Sections</h2>
+<h2>How it's organized</h2>
 
 <ol>
 {%- for s in ch.sections %}
@@ -27,7 +27,7 @@ layout: default
 {%- endfor %}
 </ol>
 
-<h2>Key terms</h2>
+<h2>Keywords</h2>
 
 <p>
 {%- for k in ch.keywords %}<span class="label label-blue">{{ k }}</span> {% endfor -%}
@@ -35,7 +35,7 @@ layout: default
 
 {%- if ch.tools.size > 0 %}
 
-<h2>Tools and organizations mentioned</h2>
+<h2>Tools and companies we mention</h2>
 
 <p>{{ ch.tools | join: ", " }}.</p>
 {%- endif %}
@@ -50,7 +50,7 @@ layout: default
 {%- endfor %}
 </ul>
 <div class="note">
-<p>Links are as printed in the manuscript. Some may have changed since; tell us if one is broken.</p>
+<p>These are the links as we wrote them. If one's dead, tell us.</p>
 </div>
 {%- endif %}
 
@@ -66,14 +66,14 @@ layout: default
 {%- endfor %}
 </ul>
 {%- if shown == 0 %}
-<p>No readings are tagged for this chapter yet.</p>
+<p>We haven't tagged any readings for this chapter yet.</p>
 {%- else %}
-<p>{{ shown }} sources from the book's <a href="https://www.zotero.org/groups/5691168/oue/library">Zotero library</a>. See the full <a href="{{ '/bibliography/' | relative_url }}">bibliography</a>.</p>
+<p>{{ shown }} sources from <a href="https://www.zotero.org/groups/5691168/oue/library">our Zotero library</a>. The whole list is in the <a href="{{ '/bibliography/' | relative_url }}">bibliography</a>.</p>
 {%- endif %}
 
 {%- if ch.related.size > 0 %}
 
-<h2>Related chapters</h2>
+<h2>See also</h2>
 
 <ul>
 {%- for n in ch.related %}

@@ -7,11 +7,11 @@ permalink: /chapters/
 
 # Chapters
 
-The book has 19 chapters. Each page here gives a short overview, the main sections, key terms, any links printed in the chapter, and further reading from the book's Zotero library. The chapter text itself is in the book.
+The book has 19 chapters. Each page here gives you a short description, how the chapter is organized, its keywords, the links we printed in it, and some further reading from our Zotero library. For the chapter itself, you'll need the book.
 
 <table>
   <thead>
-    <tr><th>#</th><th>Chapter</th><th>What it covers</th></tr>
+    <tr><th>#</th><th>Chapter</th><th>What it's about</th></tr>
   </thead>
   <tbody>
   {%- for c in site.data.chapters %}

@@ -1,5 +1,5 @@
 title: Observing the User Experience
-description: A companion site for the third edition, by Elizabeth Goodman and Mike Kuniavsky
+description: Companion site for the third edition, by Elizabeth Goodman and Mike Kuniavsky
 theme: just-the-docs
 
 url: https://mikekuniavsky.github.io/OUE3e
@@ -27,7 +27,6 @@ callouts:
     title: Note
     color: blue
 
-footer_content: "Companion site for <em>Observing the User Experience</em>, third edition. Work in progress."
 
 # Pages without an explicit layout use the theme's default layout
 defaults:
