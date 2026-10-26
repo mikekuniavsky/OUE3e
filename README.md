@@ -4,7 +4,7 @@ Source for the companion website of *Observing the User Experience*, third editi
 
 The site is built with [Jekyll](https://jekyllrb.com) and the [Just the Docs](https://just-the-docs.com) theme, and deployed to GitHub Pages by `.github/workflows/pages.yml` on every push to `main`.
 
-It does **not** contain the book's text. It has an overview of each chapter, a searchable bibliography built from the book's Zotero library, and a page of the links and tools mentioned in the chapters.
+It does **not** contain the book's text. It has an AI generated overview of each chapter (book chapters written entirely by humans!), a searchable bibliography built from the book's Zotero library, and a page of the links and tools mentioned in the chapters.
 
 ## Layout
 
