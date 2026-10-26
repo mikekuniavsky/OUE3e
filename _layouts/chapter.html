@@ -1,0 +1,90 @@
+---
+layout: default
+---
+{%- assign ch = site.data.chapters | where: "num", page.chapter | first -%}
+{%- assign prev_num = ch.num | minus: 1 -%}
+{%- assign next_num = ch.num | plus: 1 -%}
+{%- assign prev_ch = site.data.chapters | where: "num", prev_num | first -%}
+{%- assign next_ch = site.data.chapters | where: "num", next_num | first -%}
+
+<h1>{{ ch.num }}. {{ ch.title }}</h1>
+
+<p class="fs-5">{{ ch.summary }}</p>
+
+<h2>In this chapter</h2>
+
+<ul>
+{%- for t in ch.takeaways %}
+  <li>{{ t }}</li>
+{%- endfor %}
+</ul>
+
+<h2>Sections</h2>
+
+<ol>
+{%- for s in ch.sections %}
+  <li>{{ s }}</li>
+{%- endfor %}
+</ol>
+
+<h2>Key terms</h2>
+
+<p>
+{%- for k in ch.keywords %}<span class="label label-blue">{{ k }}</span> {% endfor -%}
+</p>
+
+{%- if ch.tools.size > 0 %}
+
+<h2>Tools and organizations mentioned</h2>
+
+<p>{{ ch.tools | join: ", " }}.</p>
+{%- endif %}
+
+{%- if ch.links.size > 0 %}
+
+<h2>Links from the chapter</h2>
+
+<ul>
+{%- for l in ch.links %}
+  <li><a href="{{ l.url }}">{{ l.label }}</a></li>
+{%- endfor %}
+</ul>
+<div class="note">
+<p>Links are as printed in the manuscript. Some may have changed since; tell us if one is broken.</p>
+</div>
+{%- endif %}
+
+<h2>Further reading</h2>
+
+{%- assign shown = 0 -%}
+<ul class="bib">
+{%- for r in site.data.zotero %}
+  {%- if r.chapters contains ch.num %}
+  {%- assign shown = shown | plus: 1 %}
+  <li id="{{ r.key }}">{{ r.bib }}</li>
+  {%- endif %}
+{%- endfor %}
+</ul>
+{%- if shown == 0 %}
+<p>No readings are tagged for this chapter yet.</p>
+{%- else %}
+<p>{{ shown }} sources from the book's <a href="https://www.zotero.org/groups/5691168/oue/library">Zotero library</a>. See the full <a href="{{ '/bibliography/' | relative_url }}">bibliography</a>.</p>
+{%- endif %}
+
+{%- if ch.related.size > 0 %}
+
+<h2>Related chapters</h2>
+
+<ul>
+{%- for n in ch.related %}
+  {%- assign rc = site.data.chapters | where: "num", n | first %}
+  <li><a href="{{ '/chapters/' | append: rc.slug | append: '/' | relative_url }}">Chapter {{ rc.num }}: {{ rc.title }}</a></li>
+{%- endfor %}
+</ul>
+{%- endif %}
+
+<hr>
+<nav class="d-flex flex-justify-between" aria-label="Chapter navigation">
+  {%- if prev_ch %}<a href="{{ '/chapters/' | append: prev_ch.slug | append: '/' | relative_url }}">&larr; {{ prev_ch.num }}. {{ prev_ch.title }}</a>{% else %}<span></span>{% endif %}
+  {%- if next_ch %}<a href="{{ '/chapters/' | append: next_ch.slug | append: '/' | relative_url }}">{{ next_ch.num }}. {{ next_ch.title }} &rarr;</a>{% endif %}
+</nav>

@@ -1,35 +1,40 @@
 ---
-title: Home 1
+title: Home
 layout: home
+nav_order: 1
+description: Companion site for Observing the User Experience, third edition
+permalink: /
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+# Observing the User Experience
+{: .fs-9 }
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+A practitioner's guide to user research, third edition, by Elizabeth Goodman and Mike Kuniavsky.
+{: .fs-6 .fw-300 }
 
-More specifically, the created site:
+[Browse the chapters]({{ '/chapters/' | relative_url }}){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Search the bibliography]({{ '/bibliography/' | relative_url }}){: .btn .fs-5 .mb-4 .mb-md-0 }
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+---
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+This site accompanies the book. It does not reproduce the book's text. It gives you:
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+- **A guide to each chapter:** what it covers, its main sections and key terms, so you can find the right method quickly.
+- **A bibliography:** the sources behind the book, searchable and grouped by chapter, drawn from the book's [Zotero library](https://www.zotero.org/groups/5691168/oue/library).
+- **Resources:** the web links and tools mentioned in the chapters, in one place.
 
-To get started with creating a site, simply:
+{: .note }
+This is a work in progress. Chapter descriptions and links will change as the book moves to print.
 
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
+## The book at a glance
 
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
+User experience research is the process of figuring out how an audience interprets and uses a designed artifact: an app, a medical device, a service. The book starts with planning (programs, projects, recruiting, desk research), moves through the main ways of learning from people (interviews, observation, usability tests, surveys, diaries, groups, findability methods), shows how to analyze and represent what you learn (qualitative analysis; personas, processes and systems), and ends with sharing it, running research as an operation, and using it to change the organization.
 
-----
-
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
-
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+<div class="chapter-grid">
+{%- for c in site.data.chapters %}
+  <a class="chapter-card" href="{{ '/chapters/' | append: c.slug | append: '/' | relative_url }}">
+    <span class="chapter-num">{{ c.num }}</span>
+    <span class="chapter-title">{{ c.title }}</span>
+  </a>
+{%- endfor %}
+</div>
