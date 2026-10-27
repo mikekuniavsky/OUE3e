@@ -40,6 +40,18 @@ layout: default
 <p>{{ ch.tools | join: ", " }}.</p>
 {%- endif %}
 
+{%- if ch.extras.size > 0 %}
+
+<h2>Online extras</h2>
+
+<p>The chapter sends you here for:</p>
+<ul>
+{%- for x in ch.extras %}
+  <li><a href="{{ '/extras/' | append: x.slug | append: '/' | relative_url }}">{{ x.label }}</a></li>
+{%- endfor %}
+</ul>
+{%- endif %}
+
 {%- if ch.links.size > 0 %}
 
 <h2>Links from the chapter</h2>

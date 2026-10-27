@@ -13,6 +13,7 @@ It does **not** contain the book's text. It has an AI generated overview of each
 | `index.md`, `about.md`, `resources.md`, `bibliography.md` | Top-level pages |
 | `chapters/*.md` | One thin page per chapter (front matter only) |
 | `_layouts/chapter.html` | Template that fills each chapter page from the data files |
+| `extras/*.md` | **Online extras** the chapters send readers to (see below) |
 | `_data/chapters.yml` | **Chapter content**: titles, summaries, sections, key terms, links |
 | `_data/zotero.json` | Bibliography, generated from Zotero (do not edit by hand) |
 | `_data/authors.yml` | Author names and LinkedIn URLs |
@@ -38,6 +39,8 @@ It does **not** contain the book's text. It has an AI generated overview of each
 - **"Zotero library" and "GitHub"** come from `aux_links` in `_config.yml`. To add or remove one of those, edit that list. Don't add "Buy the book" there; it's already in the override.
 
 If you upgrade `just-the-docs` (the version is pinned in the `Gemfile`), compare our `aux_nav.html` with the new theme's copy (`bundle info just-the-docs` shows where the gem lives, then look in `_includes/components/aux_nav.html`) and carry over any changes. To go back to the theme's version, delete our file and move "Buy the book" into `aux_links` with the full URL.
+
+**Add or edit an online extra.** Extras are the things the book says are "on the website" or in the e-Extra section. Each is a page in `extras/` with `parent: Extras`. List it on `extras/index.md`, and add it to the chapter's `extras:` list in `_data/chapters.yml` so the chapter page links to it.
 
 **Refresh the bibliography.** The Zotero group library (`https://www.zotero.org/groups/5691168/oue/library`) is public, so no key is needed:
 
@@ -67,3 +70,9 @@ These came up while building the first version and need an author decision:
 - **Uncollected items.** About 27 Zotero items are not in any chapter collection; they only appear in the full bibliography.
 - **Links** on the chapter pages are the ones printed in the manuscript. A link checker run before launch would be sensible.
 - **Chapter 18 tool link.** The data-management workshop tool is credited to "Consent Kit" in the manuscript and to "Participant Kit" in the proofs, so no link is included yet.
+- **Extras the book promises but we haven't written.** Chapter 8 says "we provide sample scripts on the website," mentions a "companion discussion guide," and says informed consent form examples are in a "supporting materials" section. Chapter 6 says "see our sample" for recording-consent wording. Chapter 12 says "visit the website for the full guide" (the focus group discussion guide). `extras/index.md` lists the first and last as "still to come."
+- **Extras we drafted from the chapter text.** `observer-instructions.md`, `accessibility-resources.md` and `diary-study-tools.md` are built from what the chapters say. Authors should read them. The accessibility links have not been checked.
+- **Chapter 8 placeholder.** The manuscript still says "consult the [name of international association here]" in the accessibility paragraph.
+- **Chapter 11 URL.** The manuscript says "Visit the book's website at [Insert book URL]." The page for it is `extras/diary-study-tools.md`.
+- **Chapter 13 pointers.** The proof says the automated testing instructions are "at the end of this chapter" and in an "Automated remote testing" section. The extra is titled "Automated usability testing." The chapter text should point readers here.
+- **Extras we left out.** The manuscripts have "Extra content" in Chapters 2 (a Julie Fischer list), 3 (Research Archetypes, marked "move to personas and archetypes") and 15 and 16 ("Analysis into action," an unfinished draft). They look like cuts, so they're not on the site.

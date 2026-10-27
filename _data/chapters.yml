@@ -201,6 +201,9 @@
   tools: []
   links: []
   related: [6, 9, 11]
+  extras:
+    - label: "Ethnography reading list"
+      slug: ethnography-reading-list
 
 - num: 8
   slug: usability-testing
@@ -226,6 +229,13 @@
   tools: []
   links: []
   related: [3, 9, 13, 17]
+  extras:
+    - label: "Reducing remote participant fraud"
+      slug: reducing-remote-participant-fraud
+    - label: "Instructions for observers"
+      slug: observer-instructions
+    - label: "Accessibility resources"
+      slug: accessibility-resources
 
 - num: 9
   slug: analyzing-qualitative-data
@@ -290,6 +300,9 @@
     - label: ICU Heart cultural probe project
       url: https://icu-heart.github.io/
   related: [6, 7, 15]
+  extras:
+    - label: "Tools for online diary studies"
+      slug: diary-study-tools
 
 - num: 12
   slug: working-with-groups
@@ -311,6 +324,11 @@
   tools: []
   links: []
   related: [4, 6, 17]
+  extras:
+    - label: "Instructions for observers"
+      slug: observer-instructions
+    - label: "A sample activity guide: group storyboarding"
+      slug: group-storyboarding-activity-guide
 
 - num: 13
   slug: findability-and-navigation
@@ -340,6 +358,11 @@
     - label: Open source card sorting tool (cardsort)
       url: https://github.com/indigane/cardsort
   related: [8, 10, 15]
+  extras:
+    - label: "Automated usability testing"
+      slug: automated-usability-testing
+    - label: "Card sorting for prioritization"
+      slug: card-sorting-for-prioritization
 
 - num: 14
   slug: representing-insights-people
