@@ -26,7 +26,7 @@ This site goes with the book. It doesn't contain the book (that's what the book 
 
 ## Get the book
 
-You can buy it from [Elsevier]({{ site.data.book.elsevier }}) or from [Amazon US]({{ site.data.book.amazon_us }}).
+You can buy it from [Elsevier]({{ site.data.book.elsevier }}) or from [Amazon]({{ site.data.book.amazon_us }}).
 
 {: .note }
 We're still building this. Descriptions and links will change as the book goes to print.
